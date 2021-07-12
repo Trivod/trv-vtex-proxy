@@ -29,5 +29,10 @@ config.json
 ## Example
 
 ```shell
-./TrivodProxy-macos -f ./config.json -p 443
+./TrivodProxy-macos -f ./config.json -p 4433
 ```
+
+Obs: For linux, exec `chmod +x TrivodProxy-linux`.
+
+
+
