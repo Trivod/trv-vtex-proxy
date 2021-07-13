@@ -12,7 +12,7 @@ Este projeto é indicado para equipes de desenvolvimento, QA, suporte, ou quem t
 
 Para ter acesso na sua loja, veja o tópico [Notas](#Notas)
 
-#### A aplicação levanta um servidor HTTPS e busca arquivos dentro pasta local `dist` e caso não encontre um arquivo, ele deixa o fluxo padrão seguir e busca o arquivo remoto. 
+#### A aplicação levanta um servidor HTTPS e busca arquivos dentro pasta local e caso não encontre um arquivo, ele deixa o fluxo padrão seguir e busca o arquivo remoto. 
 
 
 ### Estrutura de diretórios
