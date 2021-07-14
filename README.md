@@ -1,5 +1,6 @@
 # Trv Proxy for VTEX
 
+
 ### *`🇧🇷 (PT-BR)`*
 
 Redirecione os tráfego dos assets de lojas VTEX para ter controle local e fazer alterações sem impactar o ambiente de produção, para lojas que utlizam estrutura CMS.
@@ -7,6 +8,8 @@ Redirecione os tráfego dos assets de lojas VTEX para ter controle local e fazer
 Imagens, arquivos de CSS e JS, entre outros. <!-- Liberte-se de Apps como Charles Proxy, Fiddler, Resource Override, Requestly.... -->
 
 Este projeto é indicado para equipes de desenvolvimento, QA, suporte, ou quem tiver interesse em realizar testes sem atualizar nada no ambiente produtivo antes de ter certeza que tudo está como esperado. Ele executa em modo terminal, linha de comando e nãoestá disponúvel a versão de interface gráfica.
+
+> Note: Indique a funcionalidade dos seus sonhos. Veja o item [notas](#Notas)
 
 ![image](https://user-images.githubusercontent.com/504327/125539104-38c4406c-a820-4146-ab30-a40ff0b057ab.png)
 
