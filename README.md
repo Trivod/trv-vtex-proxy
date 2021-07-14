@@ -43,6 +43,7 @@ Obs: Este projeto não possui render dos componentes Vtex. Em breve novidades po
 
 
 ## Como utilizar:
+
  1. Baixe o utilitário referente ao seu *S.O* em um dos links acima
  2. Coloque o arquivo na raiz do projeto
  3. Rode o utilirário com o comando abaixo:
@@ -57,9 +58,11 @@ Obs: Este projeto não possui render dos componentes Vtex. Em breve novidades po
 O parâmetro `-f ./config.json` **(pode ser qualquer nome)** indica o arquivo de configuração que deve possuir a chave `vtex` com o atributo `store` para ativar baseado no nome da loja.
 
 
-
 O parâmetro `-p 4433` indica a porta para o servidor HTTP
 
+Após a execução, será impresso no terminal a URL local do projeto.
+
+É indicado que você utilize essa URL mapeada em seu arquivo `hosts` caso necessário, para que seja possível uma melhor experiência com a navegação.
 
 
 ## Exemplo de arquivo de configuração
@@ -74,6 +77,10 @@ O parâmetro `-p 4433` indica a porta para o servidor HTTP
 
 
 ## FAQ
+
+### URL Insegura
+
+Sim, neste momento, ainda, o SSL está self-signed para o ambiente disponível pelo proxy. É necessário adicionar o certificado como válido para continuar a navegação.
 
 ### Para Linux
 
