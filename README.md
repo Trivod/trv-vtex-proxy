@@ -50,7 +50,7 @@ Obs: Este projeto não possui render dos componentes Vtex. Em breve novidades po
 
 
 ```shell
-./TrivodProxy-macos -f ./config.json -p 4433
+./TrivodProxy-macos -f ./config.json -p 433
 ```
 
 > É possível rodar o utilitário sem o passar o arquivo de configuração como parâmetro. Dessa forma, ele busca a chave `vtex` dentro do **package.json**. Apenas crie a estrutura conforme o exemplo de configuração mais abaixo.
@@ -58,7 +58,7 @@ Obs: Este projeto não possui render dos componentes Vtex. Em breve novidades po
 O parâmetro `-f ./config.json` **(pode ser qualquer nome)** indica o arquivo de configuração que deve possuir a chave `vtex` com o atributo `store` para ativar baseado no nome da loja.
 
 
-O parâmetro `-p 4433` indica a porta para o servidor HTTP
+O parâmetro `-p 443` indica a porta para o servidor HTTP
 
 Após a execução, será impresso no terminal a URL local do projeto.
 
