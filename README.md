@@ -20,14 +20,14 @@ Para ter acesso na sua loja, veja o tópico [Notas](#Notas)
 
 ### Estrutura de diretórios
 
-Neste momento server HTTPS está mapeando as seguintes pastas locais (leia-se diretórios, path na URL).
+Neste momento server HTTPS está mapeando a pasta as seguintes pastas locais (leia-se diretórios, path na URL).
 
- - */arquivos*
- - */files*
- - */customElements*
- - */htmltemplates*
- - */partials*
- - */subtemplates*
+ - */dist/arquivos*
+ - */dist/files*
+ - */dist/customElements*
+ - */dist/htmltemplates*
+ - */dist/partials*
+ - */dist/subtemplates*
 
 Todas as pastas acima são mapeadas para o ambiente local. E ao utilizar o endereço local, será verificado se o arquivo solicitado está dentro de uma destas pastas. Caso não exista, o proxy realizará a chamada diretamente ao domínio da loja VTEX. Caso este arquivo também não exista online, o retorno comum da plataforma VTEX será entregue na requisição.
 
