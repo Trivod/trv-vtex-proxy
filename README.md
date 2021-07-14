@@ -64,6 +64,10 @@ Após a execução, será impresso no terminal a URL local do projeto.
 
 É indicado que você utilize essa URL mapeada em seu arquivo `hosts` caso necessário, para que seja possível uma melhor experiência com a navegação.
 
+```
+127.0.0.1  {id-loja-vtex}.vtexlocal.com.br
+```
+
 
 ## Exemplo de arquivo de configuração
 ```json
