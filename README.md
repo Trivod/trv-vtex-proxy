@@ -7,7 +7,7 @@ Redirecione os tráfego dos assets de lojas VTEX para ter controle local e fazer
 
 Imagens, arquivos de CSS e JS, entre outros. <!-- Liberte-se de Apps como Charles Proxy, Fiddler, Resource Override, Requestly.... -->
 
-Este projeto é indicado para equipes de desenvolvimento, QA, suporte, ou quem tiver interesse em realizar testes sem atualizar nada no ambiente produtivo antes de ter certeza que tudo está como esperado. Ele executa em modo terminal, linha de comando e nãoestá disponúvel a versão de interface gráfica.
+Este projeto é indicado para equipes de desenvolvimento, QA, suporte, ou quem tiver interesse em realizar testes sem atualizar nada no ambiente produtivo antes de ter certeza que tudo está como esperado. Ele executa em modo terminal, linha de comando, e não está disponível a versão de interface gráfica nele.
 
 > Note: Indique a funcionalidade dos seus sonhos. Veja o item [notas](#Notas)
 
